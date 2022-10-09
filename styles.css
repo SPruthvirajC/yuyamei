@@ -1,0 +1,71 @@
+html,
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+.navbar {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.navbar-color {
+  color: white;
+}
+
+/* Highlighting skills in hero-section */
+.skills-p {
+  color: rgb(18, 58, 236);
+  font-size: large;
+}
+
+.profile {
+  border-radius: 30%;
+}
+.border-bottom {
+  border: 3px;
+}
+
+.a-links {
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+}
+
+.btn-hover:hover {
+  text-decoration: none;
+
+  color: rgb(7, 7, 7);
+}
+
+.btn-dark:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-color: #242424; /*set the color you want here*/
+}
+
+.btn {
+  display: inline-flex;
+}
+
+.h1-about {
+  text-align: center;
+}
+
+.btn {
+  font-weight: 300;
+  font-weight: bold;
+  color: black;
+}
+
+.margin-skills {
+  margin-right: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-outline-dark {
+  color: #343a40;
+  border-color: #343a40;
+}
